@@ -41,7 +41,7 @@ def main():
 
     avltree = AVLTree()
     bktree = BKTree(lev)
-    dataset = Dataset("brooklyn_public_library_catalog_selected.csv", 1000)
+    dataset = Dataset("brooklyn_public_library_catalog_selected.csv")
 
     st.write("Indexing: Load in the data")
 
